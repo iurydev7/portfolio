@@ -1,0 +1,12 @@
+.skills { padding: 100px 0; border-top: 1px solid var(--border); }
+.skills-heading { max-width: 760px; margin-bottom: 48px; }
+.skills-label {
+  display: inline-block; margin-bottom: 16px; color: var(--primary);
+  font-size: .85rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em;
+}
+.skills-title { font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 20px; }
+.skills-title span { color: var(--primary); }
+.skills-heading p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
+.skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+@media (max-width: 900px) { .skills-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .skills { padding: 64px 0; } .skills-heading { margin-bottom: 32px; } }

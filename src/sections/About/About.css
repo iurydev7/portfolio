@@ -1,0 +1,10 @@
+.about { padding: 100px 0; border-top: 1px solid var(--border); }
+.about-content { max-width: 760px; }
+.about-label {
+  display: inline-block; margin-bottom: 16px; color: var(--primary);
+  font-size: .85rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em;
+}
+.about-title { font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 32px; }
+.about-title span { color: var(--primary); }
+.about-content p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.9; margin-bottom: 20px; }
+@media (max-width: 600px) { .about { padding: 64px 0; } }

@@ -1,0 +1,20 @@
+:root,
+[data-theme="dark"] {
+  --background: #0B0B0F;
+  --surface: #15141B;
+  --primary: #7C3AED;
+  --primary-hover: #9254F4;
+  --text-primary: #EDE9FF;
+  --text-secondary: #A8A3B9;
+  --border: #30283D;
+}
+
+[data-theme="light"] {
+  --background: #F8F7FF;
+  --surface: #FFFFFF;
+  --primary: #6D28D9;
+  --primary-hover: #7C3AED;
+  --text-primary: #1A1A1F;
+  --text-secondary: #686580;
+  --border: #DDD5EB;
+}
